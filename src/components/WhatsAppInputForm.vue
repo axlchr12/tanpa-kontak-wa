@@ -103,6 +103,7 @@ button {
   margin-top: 20px;
   color: white;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .error {

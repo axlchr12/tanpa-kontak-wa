@@ -1,7 +1,17 @@
-<template><span> &copy;2022. TanpaKontakWA.</span></template>
+<template>
+  <footer>
+    <span> &copy;{{ currentYear }}. TanpaKontakWA.</span>
+  </footer>
+</template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      currentYear: new Date().getFullYear(), // 2020
+    };
+  },
+};
 </script>
 
 <style></style>

@@ -1,19 +1,15 @@
-# tanpa-kontak-wa
+# TanpaKontakWA
 
-## Project setup
-```
-npm install
-```
+## About
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+TanpaKontakWA (link website here) adalah sebuah situs web yang
+diperuntukkan untuk orang-orang yang <em>mager</em> menyimpan kontak
+WhatsApp.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## To Do List
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+```
+- [x] Initial
+- [x] Using Free API WhatsApp
+- [] Automating Send Message
+```
