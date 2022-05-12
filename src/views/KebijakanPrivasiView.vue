@@ -2,7 +2,7 @@
   <div class="privacy-policy">
     <h1>Perihal Privasi</h1>
     <p>
-      TanpaKontakWA (link website here) adalah sebuah situs web yang
+      TanpaKontakWA (tanpakontakwa.netlify.app/) adalah sebuah situs web yang
       diperuntukkan untuk orang-orang yang <em>mager</em> menyimpan kontak
       WhatsApp.
     </p>
