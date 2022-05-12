@@ -14,4 +14,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+footer {
+  margin: 50px 0;
+}
+</style>

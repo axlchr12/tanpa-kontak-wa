@@ -22,9 +22,6 @@
       <button type="submit">KIRIM PESAN</button>
     </div>
   </form>
-  <p>Phone Number: {{ phoneNumber }}</p>
-  <p>Message: {{ message }}</p>
-  <p>Generate URL: {{ url }}</p>
 </template>
 
 <script>
@@ -45,13 +42,17 @@ export default {
       this.messageError = this.message.length ? '' : 'Message harus diisi';
 
       if (!this.phoneNumberError && !this.messageError) {
-        this.phoneNumberError;
         this.url =
           'https://api.whatsapp.com/send/?phone=62' +
           this.phoneNumber +
           '&text=' +
           this.message +
           '';
+        console.log(this.url);
+        window.open(
+          this.url,
+          '_blank' // <- This is what makes it open in a new window.
+        );
       }
     },
   },
