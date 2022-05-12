@@ -77,7 +77,7 @@ export default {
 }
 .img-tutorial {
   margin: 5vh 0;
-  height: 30vh;
+  height: 25vh;
   border: 1px solid black;
 }
 a {
