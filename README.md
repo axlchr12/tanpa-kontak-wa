@@ -4,7 +4,7 @@
 
 ## About
 
-TanpaKontakWA (link website here) adalah sebuah situs web yang
+TanpaKontakWA (https://tanpakontakwa.netlify.app/) adalah sebuah situs web yang
 diperuntukkan untuk orang-orang yang <em>mager</em> menyimpan kontak
 WhatsApp.
 
